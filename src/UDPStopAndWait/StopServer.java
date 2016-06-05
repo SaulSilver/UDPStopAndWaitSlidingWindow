@@ -84,7 +84,7 @@ public class StopServer {
 
                 InputStream in = new ByteArrayInputStream(photoArray);
                 BufferedImage bufferedImage = ImageIO.read(in);
-                File newImage = new File("image\\new.png");
+                File newImage = new File("image\\stopAndwaitOut.png");
                 ImageIO.write(bufferedImage, "png", newImage);
 
                 isDone = false;

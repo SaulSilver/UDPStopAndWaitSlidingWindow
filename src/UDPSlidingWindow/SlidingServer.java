@@ -125,7 +125,7 @@ public class SlidingServer {
 
             InputStream in = new ByteArrayInputStream(photoArray);
             BufferedImage bufferedImage = ImageIO.read(in);
-            ImageIO.write(bufferedImage, "png", new File("image\\notAsBig.png"));
+            ImageIO.write(bufferedImage, "png", new File("image\\slidingWindowOut.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
